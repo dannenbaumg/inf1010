@@ -1,2 +1,25 @@
-﻿  main.cpp
-  tp1New.vcxproj -> C:\Users\danne\Documents\inf1010_tp1_good\tp1\Debug\tp1New.exe
+﻿  Menu.cpp
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\menu.cpp(6): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\menu.cpp(7): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\menu.cpp(8): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\menu.cpp(9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\menu.cpp(40): warning C4018: '<' : incompatibilité signed/unsigned
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\menu.cpp(53): warning C4018: '<' : incompatibilité signed/unsigned
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\menu.cpp(143): warning C4018: '<' : incompatibilité signed/unsigned
+  Plat.cpp
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\plat.cpp(6): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Restaurant.cpp
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\restaurant.cpp(6): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\restaurant.cpp(7): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\restaurant.cpp(8): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\restaurant.cpp(9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\restaurant.cpp(81): warning C4018: '<=' : incompatibilité signed/unsigned
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\restaurant.cpp(110): warning C4018: '<' : incompatibilité signed/unsigned
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\restaurant.cpp(132): warning C4018: '<' : incompatibilité signed/unsigned
+  Table.cpp
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\table.cpp(6): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\table.cpp(67): warning C4018: '<' : incompatibilité signed/unsigned
+d:\inf1010\lab1\inf1010_tp1_good\tp1\tp1new\table.cpp(87): warning C4018: '<' : incompatibilité signed/unsigned
+  main.cpp
+  Génération de code en cours...
+  tp1New.vcxproj -> D:\INF1010\lab1\inf1010_tp1_good\tp1\Debug\tp1New.exe

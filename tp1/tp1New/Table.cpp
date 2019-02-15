@@ -1,5 +1,10 @@
+/*
+* Titre : Table.cpp - Travail Pratique #1
+* Date : 25 Janvier 2019
+* Auteurs : Gabriel Dannenbaum Lucas Tassaux
+*/
 #include "Table.h";
-
+#include "Plat.h"
 // constructeurs
 
 Table::Table() {
@@ -50,11 +55,12 @@ void Table::tableOccuper() {
 
 
 //autres methodes 
+//ajouter un plat a une commande
 void Table ::commander(Plat* plat) {
 	if(nbPlats_ <= capacite_ && estOccupee())
 		commande_[nbPlats_++] = plat;
 }
-
+//Calculer le chiffre d'affaire d'une table
 double Table::getChiffreAffaire() {
 	double profit = 0;
 
@@ -85,6 +91,6 @@ void Table::afficher() {
 	
 }
 
-Table::~Table() {
+Table :: ~Table() {
 	delete[] commande_;
 }

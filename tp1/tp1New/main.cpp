@@ -1,7 +1,7 @@
 /*
 * Titre : main.cpp - Travail Pratique #1
-* Date : 09 Janvier 2019 
-* Auteur : Gabriel Dannenbaum Lucas Tassaux
+* Date : 25 Janvier 2019 
+* Auteurs : Gabriel Dannenbaum Lucas Tassaux
 */
 
 #include "Restaurant.h"
@@ -67,6 +67,10 @@ int main() {
 
 	//afficher le restaurant 
 	poly.afficher(); 
+	/* Nous mettons en pause le programme car lors de la destruction des objets le programme crash,
+	Nous n'avons pas réussi a trouver la raison de ce crash, celui ci arrive lors du delete[]tables_
+	dans le destructeur de Restaurant.
+	*/
 	system("pause");
 	return 0;
 

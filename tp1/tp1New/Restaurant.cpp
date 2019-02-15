@@ -1,4 +1,10 @@
+/*
+* Titre : Restaurant.cpp - Travail Pratique #1
+* Date : 25 Janvier 2019
+* Auteurs : Gabriel Dannenbaum Lucas Tassaux
+*/
 #include "Restaurant.h";
+#include "Table.h";
 #include "Menu.h";
 #include <limits>;
 //constructeurs
@@ -48,7 +54,7 @@ void Restaurant::ajouterTable(int id, int nbPlaces) {
 	tables_[nbTables_ ++] = new Table(id, nbPlaces);
 	
 }
-
+//Lire l'id et le nombre de place d'une table a partir d'un fichier texte
 void Restaurant::lireTable(string& fichier) {
 	ifstream fichierO("polyFood.txt");
 	string tempString;
@@ -79,6 +85,7 @@ void Restaurant ::libererTable(int id) {
 
 	
 }
+//commander un plat en fonction du moment de la journee
 void Restaurant::commanderPlat(string& nom, int idTable) {
 	
 	switch (momentJournee_) {
@@ -94,7 +101,7 @@ void Restaurant::commanderPlat(string& nom, int idTable) {
 	}
 
 }
-	
+	//Trouver une table la plus petite possible pouvant acceuillir le nombre de clients en parametre
 void Restaurant::placerClients(int nbClients) {
 	int nbPlacesMin = std::numeric_limits<int>::max();
 	
@@ -137,5 +144,5 @@ Restaurant :: ~Restaurant() {
 	delete menuMatin_;
 	delete menuMidi_;
 	delete menuSoir_;
-	delete[] tables_;
+	delete[]tables_;
 }

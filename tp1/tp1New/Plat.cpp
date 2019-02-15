@@ -1,3 +1,8 @@
+/*
+* Titre : Plat.cpp - Travail Pratique #1
+* Date : 25 Janvier 2019
+* Auteurs : Gabriel Dannenbaum Lucas Tassaux
+*/
 #include "Plat.h";
 
 //constructeurs

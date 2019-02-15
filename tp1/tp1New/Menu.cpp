@@ -1,3 +1,8 @@
+/*
+* Titre : Menu.cpp - Travail Pratique #1
+* Date : 25 Janvier 2019
+* Auteurs : Gabriel Dannenbaum Lucas Tassaux
+*/
 #include "Menu.h";
 #include "Plat.h";
 #include <string>;
@@ -30,6 +35,7 @@ int Menu::getNbPlats() {
 
 
 //methodes en plus
+// Trouver un plat dans une liste de plats
 Plat* Menu::trouverPlat(string& nom) {
 	for (int i = 0; i < nbPlats_; i++) {
 		if (nom == listePlats_[i]->getNom()) {
@@ -38,7 +44,7 @@ Plat* Menu::trouverPlat(string& nom) {
 	}
 	return nullptr;
 }
-
+//ajouter un plat a une liste de plats
 void Menu :: ajouterPlat(Plat & plat) {
 
 	if (nbPlats_ == capacite_) {
@@ -66,7 +72,8 @@ void Menu::ajouterPlat(string& nom, double montant, double cout) {
 	ajouterPlat(Plat);
 }
 
-//fonction pour convertir string en enum pour le type de menu
+//fonction pour convertir string en enum pour le type de menu et lire et ajouter 
+//des plats a un menu
 
 bool Menu :: lireMenu(string& fichier) {
 	string type;
